@@ -1,1 +1,5 @@
 # NLP-presidential-inaugural-speeches
+
+Data is multiple inaugural speeches collected from the Natural Language Tool Kit (NLTK). The speeches are cleaned for consistency and is tagged with various aspects about the speech such as the author, political party, time period etc. NLP techniques such as bag-of-words and tf-idf were used to create feature sets and latent semantic analysis was used to understand the concepts that were used throughout the speeches. 
+
+Clustering was conducted on the data to see how well the documents were grouped based on the tags and the model best grouped the speeches based on the time period of the speeches. A similarity score between the speeches was used to run the model and there are 3 major shifts in speech similarity which can be accounted for by the issues of focus as well as speech structure. These shifts can be accounted for by the shifts in time as the other tags did not cluster as well considering the changing goals of political parties as well as a lack of data for lesser known parties earlier on in US history.  
